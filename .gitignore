@@ -1,0 +1,32 @@
+webapp/HELP.md
+webapp/target/
+webapp/!.mvn/wrapper/maven-wrapper.jar
+webapp/!**/src/main/**
+webapp/!**/src/test/**
+webapp/lib/**
+
+### STS ###
+webapp/.apt_generated
+webapp/.classpath
+webapp/.factorypath
+webapp/.project
+webapp/.settings
+webapp/.springBeans
+webapp/.sts4-cache
+
+### IntelliJ IDEA ###
+webapp/.idea
+webapp/*.iws
+webapp/*.iml
+webapp/*.ipr
+
+### NetBeans ###
+webapp/nbproject/private/
+webapp/nbbuild/
+webapp/dist/
+webapp/nbdist/
+webapp/.nb-gradle/
+webapp/build/
+
+### VS Code ###
+webapp/.vscode/
