@@ -3,6 +3,7 @@
         <title>Welcome</title>
     </head>
     <body>
-        Name ${name}
+        Welcome ${name}
+        <p>Go to todos list <a href="/list-todos">Todos list</a></p>
     </body>
 </html>
