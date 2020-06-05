@@ -74,4 +74,15 @@ public class Todo {
     public int hashCode() {
         return Objects.hash(id, user, desc, targetDate, isDone);
     }
+
+    @Override
+    public String toString() {
+        return "Todo{" +
+                "id=" + id +
+                ", user='" + user + '\'' +
+                ", desc='" + desc + '\'' +
+                ", targetDate=" + targetDate +
+                ", isDone=" + isDone +
+                '}';
+    }
 }
