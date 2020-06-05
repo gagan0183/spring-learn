@@ -27,6 +27,9 @@
                         <td>
                             ${todo.done}
                         </td>
+                        <td>
+                            <a href="/delete-todo?id=${todo.id}" class="btn btn-warning" type="button">Delete</a>
+                        </td>
                     </tr>
                 </c:forEach>
             </tbody>

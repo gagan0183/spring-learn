@@ -50,8 +50,9 @@ public class TodoService {
     public void removeTodo(int id) {
         Iterator<Todo> todoIterator = todos.iterator();
         while(todoIterator.hasNext()) {
-            if (todoIterator.next().getId() == id) {
-                todos.remove(id);
+            Todo todo = todoIterator.next();
+            if (todo.getId() == id) {
+                todoIterator.remove();
             }
         }
     }
