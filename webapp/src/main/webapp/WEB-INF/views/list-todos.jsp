@@ -28,6 +28,9 @@
                             ${todo.done}
                         </td>
                         <td>
+                            <a href="/update-todo?id=${todo.id}" class="btn btn-success" type="button">Update</a>
+                        </td>
+                        <td>
                             <a href="/delete-todo?id=${todo.id}" class="btn btn-warning" type="button">Delete</a>
                         </td>
                     </tr>

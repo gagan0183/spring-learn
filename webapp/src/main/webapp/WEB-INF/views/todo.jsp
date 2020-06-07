@@ -8,6 +8,7 @@
     <body class="container">
         <form:form method="post" modelAttribute="todo">
             <fieldset class="form-group">
+                <form:hidden path="id"></form:hidden>
                 <form:label path="desc">Description</form:label>
                 <form:input path="desc" name="desc" type="text" class="form-control" required="required"></form:input>
                 <form:errors path="desc" cssClass="text-warning"></form:errors>
