@@ -4,6 +4,12 @@ webapp/!.mvn/wrapper/maven-wrapper.jar
 webapp/!**/src/main/**
 webapp/!**/src/test/**
 webapp/lib/**
+springboot-rest/HELP.md
+springboot-rest/target/
+springboot-rest/!.mvn/wrapper/maven-wrapper.jar
+springboot-rest/!**/src/main/**
+springboot-rest/!**/src/test/**
+springboot-rest/lib/**
 
 ### STS ###
 webapp/.apt_generated
@@ -19,6 +25,10 @@ webapp/.idea
 webapp/*.iws
 webapp/*.iml
 webapp/*.ipr
+springboot-rest/.idea
+springboot-rest/*.iws
+springboot-rest/*.iml
+springboot-rest/*.ipr
 
 ### NetBeans ###
 webapp/nbproject/private/
